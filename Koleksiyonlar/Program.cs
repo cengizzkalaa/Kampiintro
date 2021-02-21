@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; // Listi kullanmak için listin yanına gelen ampulden burayı okeyliyoruz
 
 namespace Lpşels
 {
@@ -7,7 +7,7 @@ namespace Lpşels
     {
         static void Main(string[] args)
         {
-            //string[] isimler = new string[] {"Cengiz","Rezan","Leyla","Hıdır" };
+            //string[] isimler = new string[] {"Cengiz","Rezan","Leyla","Hıdır" }; // array sadece bu sınırlar ıcerısındedır.
             //Console.WriteLine(isimler[0]);
             //Console.WriteLine(isimler[1]);
             //Console.WriteLine(isimler[2]);
@@ -28,6 +28,7 @@ namespace Lpşels
             isimler2.Add("Sevim");
             Console.WriteLine(isimler2[4]);
             Console.WriteLine(isimler2[0]);
+            // koleksiyonlarda değerleri kaybetmemizi engelleyen bir yapı var. Arraylarde öyle degildir.
 
 
         }
